@@ -15,7 +15,6 @@ daphne==4.1.2
 dj-database-url==2.3.0
 Django==5.2
 django-allauth==65.7.0
-django-channels==0.7.0
 django-cleanup==9.0.0
 django-environ==0.12.0
 django-htmx==1.23.0
