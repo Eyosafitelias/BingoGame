@@ -29,10 +29,10 @@ DEBUG = os.getenv('DEBUG')
 # SECURITY WARNING: keep the secret key used in production secret!
 
 # SECURITY WARNING: don't run with debug turned on in production!
-
+DJANGO_SETTINGS_MODULE = 'a_core.settings'
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split(',')
 
-CSRF_TRUSTED_ORIGINS = [ 'https://*' ]
+CSRF_TRUSTED_ORIGINS=os.getenv('CSRF_TRUSTED_ORIGINS').split(',')
 
 
 # Application definition
